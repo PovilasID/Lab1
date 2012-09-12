@@ -1,0 +1,74 @@
+
+	
+	<h3>Laboratorinis darbas: Bazinës duomenø struktûros</h3>
+	
+	<div class="rd_desc rd_full">
+		<p></p><p><span style="text-decoration: underline;"><strong>Darbo tikslai:</strong></span></p>
+<ol>
+<li>Ásisavinti sistemos <strong>NetBeans </strong>aplinkà, jos teikiamas paslaugas, efektyvius darbo metodus.</li>
+<li>Susipaþinti su pagrindinëmis baziniø duomenø tipø (<strong>Number, String, Arrays</strong>) savybëmis;</li>
+<li>Iðmokti objektø kûrimo ir pateikimo Javos kalboje pradmenis;</li>
+<li>Susipaþinti su lietuviðkø tekstø apdorojimu, bendra lokaliø metodika, laiko ir datos klasëmis.</li>
+<li>Ágyti darbo internetinëje aplinkoje ágûdþius (klasiø apraðymai, programø pavyzdþiai).</li>
+</ol>
+<p><span style="text-decoration: underline;"><strong>Atsiskaitymas:</strong></span></p>
+<ol>
+<li>Pateikiama atlikta individuali darbo dalis ir ataskaitos elektroninë versija;</li>
+<li>Operatyviai atliekamos dëstytojo nurodytos uþduotys:<br>- atlikti nurodytus veiksmus <strong>NetBeans </strong>aplinkoje (klasës kûrimas, vardø keitimas, importo fiksavimas, klasës ar metodo paieðka ir pan.);<br>- sukurti ar modifikuoti nurodytus savybiø tyrimo metodus;</li>
+<li>Atsakoma á klausimus apie baziniø klasiø struktûrà ir metodus.</li>
+</ol>
+<p><span style="text-decoration: underline;"><strong>Darbo eiga</strong></span></p>
+<p><em>Duota:</em> projektas <strong>Lab1_BazinesStrukturos</strong>, kuriame yra pateiktos baziniø struktûrø demonstracinës klasës su valdymo perjungimo metodais.</p>
+<p><em>Tyrimo ir analizës dalis:</em></p>
+<p>Susipaþinti ir iðnagrinëti <strong>NetBeans </strong>aplinkà. Toliau pereiti prie demonstraciniø klasiø nagrinëjimo, bandymø ir tyrimo. Perþiûrëkite ir iðsiaiðkinkite pateiktas klases, pakeiskite programiná kodà, stebëkite gautus rezultatus.</p>
+<p><em>Programavimo&nbsp; dalis:</em></p>
+<ol>
+<li>Sukurti metodus matematiniø tapatybiø patikrinimui, panaudojant klasës <strong>Math </strong>funkcijas;</li>
+<li>Sukurti metodus pasirinktai teksto analizei;</li>
+<li>Sudaryti vieno ið pirmo kurso laboratoriniø darbø programà Java kalba (be&nbsp; duomenø ávedimo metodø) naujo NetBeans projekto formoje.</li>
+</ol>
+<p>Klasë <strong>BandymuLaboratorija </strong>- tai pradinë tyrimø klasë, ið kurios pasirinktinai yra nukreipiama á Javos elementø savybes demonstruojanèius metodus. Jie naudingi konkreèiø savybiø paþinimui sustiprinti. Kadangi visi metodai su <strong>System.out.println</strong> pateikia nemaþai informacijos, todël <em>rekomenduojama komentarø pagalba iðskirti tik vienà tiriamà klasæ ir metodus, o kitus padaryti neaktyviais ir koncentruotis á vienà problemà</em>. Daugelis metodø yra "vienkartinio" naudojimo ir prasmingø algoritmø ieðkoti nereikia. Jei kokie nors aspektai yra neaiðkûs, tai tada yra daromi metodo pakeitimai ir tyrinëjama toliau, stebint gautus rezultatus.</p>
+<p>Pateiktos klasës gali bûti naudojamos kaip ðabloniniø sprendimø saugyklos. Toliau kylant naujoms problemoms, papildomai sukuriamos naujos klasës ar metodai, jie iðbandomi ir tada perkeliami á kuriamà programà.</p>
+<p>DAUG KLAUSIMØ APIE JAVÀ GALIMA IÐSIAIÐKINTI, ATLIEKANT SAVARANKIÐKUS BANDYMUS, TYRIMUS IR ANALIZÆ.</p>
+<p><span style="text-decoration: underline;"><strong>Vertinimas:</strong></span> Minimalus iðtirtø ir individualiai adaptuotø metodø rinkinys teigiamam paþymiui yra:</p>
+<ul>
+<li>klasë Demo0 - visi metodai; </li>
+<li>klasë Demo1 - met1, met2, met5, met6, met7; </li>
+<li>klasë Demo2 - met1, met2, met5, met6, met7; </li>
+<li>klasë Demo3 - met1, met2, met5; </li>
+<li>klasë Demo4 - met1, met2, met3.</li>
+</ul>
+<p>Taip pat reikia atlikti pasirinktà pirmo kurso uþdaviná pagal pateiktà pavyzdá.</p>
+<p>Kitos klasës ir metodai - paþymio gerinimui. Kuo ádomesni ir originalesni studentø sukurti demo pavyzdþiai,<br>tuo geresnis laboratorinio darbo ávertinimas :-)<br> <br></p>
+
+<p></p>
+	</div>
+	
+	<div id="rd_file">
+	
+		<div class="rd_thumb"><img alt="zip.png" src="http://proin.ktu.lt/ds/images/rokdownload_thumbs/zip.png"></div>		
+		<div class="rd_details">
+		
+			<dl class="rd_props">
+												<div class="rd_prop even">
+					<dt class="rd_modified_date">Atnaujinta:</dt>
+					<dd class="rd_modified_date">05.09.11</dd>
+				</div>
+												<div class="rd_prop odd">
+					<dt class="rd_filesize">Failo dydis:</dt>
+					<dd class="rd_filesize">76 KB</dd>
+				</div>
+												<div class="rd_prop even">
+					<dt class="rd_dl_count">Atsisiuntimai:</dt>
+					<dd class="rd_dl_count">1113</dd>
+				</div>
+								
+			</dl>
+			
+			<div class="rd_status">
+															</div>
+			<div class="rd_buttons">
+				<a class="rd_button" href="/ds/index.php/laboratoriniai-darbai/17-bazins-duomen-struktros/download"><span>Atsisiøsti</span></a>			</div>
+		</div>
+	</div>
+

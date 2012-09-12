@@ -1,3 +1,6 @@
+
+import java.net.MalformedURLException;
+
 /**
  * Tai pradinė tyrimų klasė, iš kurios pasirinktinai yra nukreipiama
  * į Javos elementų savybes demonstruojančius metodus.
@@ -42,18 +45,18 @@ public class BandymuLaboratorija {
      * Reikalingoms demonstravimui klasėms komentarai nuimami.
      * Laikinai nereikalingoms komentarai uždedami.
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MalformedURLException {
 //        Demo0PradiniaiEtiudai.metodųIšbandymas();
-//        Demo1SkaiciuSavybes  .metodoParinkimas();
-//        Demo2SimboliaiTekstai.metodoParinkimas();
+        Demo1SkaiciuSavybes  .metodoParinkimas();
+        Demo2SimboliaiTekstai .metodoParinkimas();
 //        new Demo3MasyvaiPerziura().metodoParinkimas();
 //
 //        Demo4NuosaviObjektai demoObjektas= new Demo4NuosaviObjektai();
 //        demoObjektas.metodoParinkimas();
 //
 //        Demo5LokalesLietuvybe.metodoParinkimas();
-//        Demo6LaikasDatos     .metodoParinkimas();
+        Demo6LaikasDatos     .metodoParinkimas();
 //        PirmoKursoUzdavinys.metodųIšbandymas();
-        PirmoKursoUzdavinys2.output();
+//        PirmoKursoUzdavinys2.output();
     }
 }

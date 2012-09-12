@@ -21,7 +21,7 @@ public class Demo2SimboliaiTekstai {
 //        met3TarpSkliaustų();
 //        met4SimboliųKodai();
 //        met5StringTokenizer();
-//        met6Scanner();
+        met6Scanner();
 //        met7FormatuotiDuomenis();
         met8();
         met9();
@@ -170,7 +170,7 @@ public class Demo2SimboliaiTekstai {
      * Atliekate savo pasirinktus demo skaičiavimus su tekstais ir simboliais
      */
     public static void met8(){
-        System.out.println("===== metodas6 ... ");
+        System.out.println("===== metodas8 ... ");
         
         String s="☺☻☼♀♂♠♣♥♦♪♫▲►▼◄●®©±µ£¥§ΞΨξ";
         int a = 0;

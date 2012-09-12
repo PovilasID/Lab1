@@ -23,7 +23,7 @@ public class Demo1SkaiciuSavybes {
 //        met3TikslumasBegalybė();
 //        met4SkirtingiTipai();
 //        met5GautiIšTeksto();
-//        met6PateiktiĮTekstą();
+        met6PateiktiĮTekstą();
 //        met7RibinėsReikšmės();
         met8();
         met9();
@@ -231,14 +231,19 @@ public class Demo1SkaiciuSavybes {
         System.out.println("===== metodas8 ... ");
         
         int a = Integer.MAX_VALUE, b=Integer.MIN_VALUE, c, d;
+        String e = "50";
+        System.out.println(e.hashCode());
+        
+        
                         System.out.println("int a,b; -> "+a+" "+b);
         c=a%2; d=b*2;
                         System.out.println("c=a%2; d=b*2;  -> "+c+" "+d);
         c=a++; d=b--;
                         System.out.println("c=a++; d=b--;  -> "+c+" "+d);
                         
-        c=  Integer.toString(a).hashCode(); d=Integer.toString(b).hashCode();
-                        System.out.println("c=Integer.toString(a).hashCode(); d=Integer.toString(b).hashCode();  -> "+c+" "+d);
+        c=  Integer.toString(a).hashCode(); d=e.hashCode();
+        
+                        System.out.println("c=Integer.toString(a).hashCode(); d=Integer.toString(b).hashCode();  -> "+c+" "+e.hashCode());
         c=  (Integer.toString(a)+Integer.toString(b)).hashCode();
                         System.out.println("c=  (Integer.toString(a)+Integer.toString(b)).hashCode(); -> "+c);
 
@@ -270,11 +275,14 @@ public class Demo1SkaiciuSavybes {
         Locale localeF = Locale.FRANCE;
         Locale localeD = Locale.GERMANY;
         Locale localeU = Locale.US;
+        Locale vLT= new Locale("LT");
         NumberFormat numberFormatter = NumberFormat.getNumberInstance(localeF);
                         System.out.println("Matematika pranzūziškai; -> "+numberFormatter.format(a%441114.544545));
         numberFormatter = NumberFormat.getNumberInstance(localeD);
                         System.out.println("Matematika vokiskai; -> "+numberFormatter.format(a%441114.544545));
         numberFormatter = NumberFormat.getNumberInstance(localeU);
+                        System.out.println("Amerikieciu vizija; -> "+numberFormatter.format(a%441114.544545));
+        numberFormatter = NumberFormat.getNumberInstance(vLT);
                         System.out.println("Amerikieciu vizija; -> "+numberFormatter.format(a%441114.544545));
                         
         System.out.println("Patikrinkite, ar tokių rezultatų tikėjotės ??\n");

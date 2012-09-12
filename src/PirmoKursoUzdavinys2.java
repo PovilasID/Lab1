@@ -1,5 +1,6 @@
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Random;
 
 /*
@@ -15,11 +16,11 @@ public class PirmoKursoUzdavinys2 {
     
     private static int[] _initiate(){
         Random rand = new Random(); 
-        int max = rand.nextInt(30);
-        System.out.println(max);
+        int max = rand.nextInt(30); // Determin maximum element number count
+        //System.out.println(max);
         int init[] = new int[max] ;
         for (int i=0;i < max;i++){
-            init[i] = rand.nextInt(100);
+            init[i] = rand.nextInt(100); // Determin maximum valeu of arrays element
         }
         //System.out.println(Arrays.toString(init));
 
@@ -73,6 +74,9 @@ public class PirmoKursoUzdavinys2 {
 
         System.out.println("Pradinis masyvas = "  + Arrays.toString(b2));
         p2.swapExtreamPrimes(b2, max, min);
+        
+        //Collections.swap(Arrays.asList(b2), max, min);
+                
         //System.out.println("Sukeistas masyvas = "  + max);
         //System.out.println("Sukeistas masyvas = "  + min);
         System.out.println("Sukeistas masyvas = "  + Arrays.toString(b2));
