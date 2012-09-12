@@ -1,4 +1,7 @@
 import static java.lang.Math.*;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.Locale;
     // importo sakinyje žodelis static leidžia toliau nenaudoti priešdėlio Math.
 /**
  * Tai yra klasė, turinti tik statinius metodus.
@@ -20,8 +23,10 @@ public class Demo1SkaiciuSavybes {
 //        met3TikslumasBegalybė();
 //        met4SkirtingiTipai();
 //        met5GautiIšTeksto();
-        met6PateiktiĮTekstą();
+//        met6PateiktiĮTekstą();
 //        met7RibinėsReikšmės();
+        met8();
+        met9();
     }
 // -----------------------------------------------------------------------------
     /**
@@ -223,7 +228,19 @@ public class Demo1SkaiciuSavybes {
      * Atliekate savo pasirinktus demo skaičiavimus su sveikais skaičiais
      */
     public static void met8(){
-        System.out.println("===== metodas6 ... ");
+        System.out.println("===== metodas8 ... ");
+        
+        int a = Integer.MAX_VALUE, b=Integer.MIN_VALUE, c, d;
+                        System.out.println("int a,b; -> "+a+" "+b);
+        c=a%2; d=b*2;
+                        System.out.println("c=a%2; d=b*2;  -> "+c+" "+d);
+        c=a++; d=b--;
+                        System.out.println("c=a++; d=b--;  -> "+c+" "+d);
+                        
+        c=  Integer.toString(a).hashCode(); d=Integer.toString(b).hashCode();
+                        System.out.println("c=Integer.toString(a).hashCode(); d=Integer.toString(b).hashCode();  -> "+c+" "+d);
+        c=  (Integer.toString(a)+Integer.toString(b)).hashCode();
+                        System.out.println("c=  (Integer.toString(a)+Integer.toString(b)).hashCode(); -> "+c);
 
         System.out.println("Patikrinkite, ar tokių rezultatų tikėjotės ??\n");
     }
@@ -233,8 +250,33 @@ public class Demo1SkaiciuSavybes {
      * tam tinka įvairių matematinių tapatybių patikrinimas
      */
     public static void met9(){
-        System.out.println("===== metodas7 ... ");
-
+        System.out.println("===== metodas9 ... ");
+        
+        double a = Double.MAX_VALUE, b=Integer.MIN_VALUE, c, d;
+                        System.out.println("int a,b; -> "+a+" "+b);
+        c=a%2; d=b*2;
+                        System.out.println("c=a%2; d=b*2;  -> "+c+" "+d);
+        c=a++; d=b--;
+                        System.out.println("c=a++; d=b--;  -> "+c+" "+d);
+                        
+        c=  Double.toString(a).hashCode(); d=Double.toString(b).hashCode();
+                        System.out.println("c=Integer.toString(a).hashCode(); d=Integer.toString(b).hashCode();  -> "+c+" "+d);
+        c=  (Double.toString(a)+Double.toString(b)).hashCode();
+                        System.out.println("c=  (Integer.toString(a)+Integer.toString(b)).hashCode(); -> "+c);
+                        
+        DecimalFormat df = new DecimalFormat("#.##");
+                        System.out.println("int a,b; -> "+df.format(a)+" "+df.format(b));
+                        
+        Locale localeF = Locale.FRANCE;
+        Locale localeD = Locale.GERMANY;
+        Locale localeU = Locale.US;
+        NumberFormat numberFormatter = NumberFormat.getNumberInstance(localeF);
+                        System.out.println("Matematika pranzūziškai; -> "+numberFormatter.format(a%441114.544545));
+        numberFormatter = NumberFormat.getNumberInstance(localeD);
+                        System.out.println("Matematika vokiskai; -> "+numberFormatter.format(a%441114.544545));
+        numberFormatter = NumberFormat.getNumberInstance(localeU);
+                        System.out.println("Amerikieciu vizija; -> "+numberFormatter.format(a%441114.544545));
+                        
         System.out.println("Patikrinkite, ar tokių rezultatų tikėjotės ??\n");
     }
 // -----------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 /**
@@ -11,9 +13,9 @@ public class Demo2SimboliaiTekstai {
      * Laikinai nereikalingiems - komentarai yra uždedami.
      */
 // -----------------------------------------------------------------------------
-    public static void metodoParinkimas(){
+    public static void metodoParinkimas() throws MalformedURLException{
         System.out.println("****** Klasė Demo2SimboliaiTekstai **********");
-        met0UniCodeSimboliai();
+//        met0UniCodeSimboliai();
 //        met1Pakeisti_MB_GB();
 //        met2ElektroninisPaštas();
 //        met3TarpSkliaustų();
@@ -21,6 +23,8 @@ public class Demo2SimboliaiTekstai {
 //        met5StringTokenizer();
 //        met6Scanner();
 //        met7FormatuotiDuomenis();
+        met8();
+        met9();
     }
 // -----------------------------------------------------------------------------
     /**
@@ -167,6 +171,13 @@ public class Demo2SimboliaiTekstai {
      */
     public static void met8(){
         System.out.println("===== metodas6 ... ");
+        
+        String s="☺☻☼♀♂♠♣♥♦♪♫▲►▼◄●®©±µ£¥§ΞΨξ";
+        int a = 0;
+        for (char s1 : s.toCharArray()){ 
+            a+=s1;
+            System.out.println("Tekstas analizei -> "+a);
+                }
 
         System.out.println("Patikrinkite, ar tokių rezultatų tikėjotės ??\n");
     }
@@ -174,8 +185,13 @@ public class Demo2SimboliaiTekstai {
     /**
      * Atliekate savo pasirinktus demo skaičiavimus su  tekstais ir simboliais
      */
-    public static void met9(){
+    public static void met9() throws MalformedURLException{
         System.out.println("===== metodas7 ... ");
+        
+        URL u = new URL("https://www.google.lt/#hl=lt&gs_nf=1&cp=4&gs_id=1m&xhr=t&q=java&pf=p&output=search&sclient=psy-ab&oq=java&gs_l=&pbx=1&bav=on.2,or.r_gc.r_pw.r_qf.&fp=37985388095e655&biw=1920&bih=870");
+        System.out.println("Tekstas analizei -> "+u.getHost());
+        System.out.println("Tekstas analizei -> "+u.getProtocol());
+        System.out.println("Tekstas analizei -> "+u.getQuery());
 
         System.out.println("Patikrinkite, ar tokių rezultatų tikėjotės ??\n");
     }

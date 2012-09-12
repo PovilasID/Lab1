@@ -43,7 +43,7 @@ public class BandymuLaboratorija {
      * Laikinai nereikalingoms komentarai uždedami.
      */
     public static void main(String[] args) {
-        Demo0PradiniaiEtiudai.metodųIšbandymas();
+//        Demo0PradiniaiEtiudai.metodųIšbandymas();
 //        Demo1SkaiciuSavybes  .metodoParinkimas();
 //        Demo2SimboliaiTekstai.metodoParinkimas();
 //        new Demo3MasyvaiPerziura().metodoParinkimas();
@@ -54,5 +54,6 @@ public class BandymuLaboratorija {
 //        Demo5LokalesLietuvybe.metodoParinkimas();
 //        Demo6LaikasDatos     .metodoParinkimas();
 //        PirmoKursoUzdavinys.metodųIšbandymas();
+        PirmoKursoUzdavinys2.output();
     }
 }
