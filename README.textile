@@ -1,74 +1,41 @@
-
-	
-	<h3>Laboratorinis darbas: Bazinës duomenø struktûros</h3>
+ï»¿	
+	<h3>Laboratorinis darbas: BazinÄ—s duomenÅ³ struktÅ«ros</h3>
 	
 	<div class="rd_desc rd_full">
 		<p></p><p><span style="text-decoration: underline;"><strong>Darbo tikslai:</strong></span></p>
 <ol>
-<li>Ásisavinti sistemos <strong>NetBeans </strong>aplinkà, jos teikiamas paslaugas, efektyvius darbo metodus.</li>
-<li>Susipaşinti su pagrindinëmis baziniø duomenø tipø (<strong>Number, String, Arrays</strong>) savybëmis;</li>
-<li>Iğmokti objektø kûrimo ir pateikimo Javos kalboje pradmenis;</li>
-<li>Susipaşinti su lietuviğkø tekstø apdorojimu, bendra lokaliø metodika, laiko ir datos klasëmis.</li>
-<li>Ágyti darbo internetinëje aplinkoje ágûdşius (klasiø aprağymai, programø pavyzdşiai).</li>
+<li>Ä®sisavinti sistemos <strong>NetBeans </strong>aplinkÄ…, jos teikiamas paslaugas, efektyvius darbo metodus.</li>
+<li>SusipaÅ¾inti su pagrindinÄ—mis baziniÅ³ duomenÅ³ tipÅ³ (<strong>Number, String, Arrays</strong>) savybÄ—mis;</li>
+<li>IÅ¡mokti objektÅ³ kÅ«rimo ir pateikimo Javos kalboje pradmenis;</li>
+<li>SusipaÅ¾inti su lietuviÅ¡kÅ³ tekstÅ³ apdorojimu, bendra lokaliÅ³ metodika, laiko ir datos klasÄ—mis.</li>
+<li>Ä®gyti darbo internetinÄ—je aplinkoje Ä¯gÅ«dÅ¾ius (klasiÅ³ apraÅ¡ymai, programÅ³ pavyzdÅ¾iai).</li>
 </ol>
 <p><span style="text-decoration: underline;"><strong>Atsiskaitymas:</strong></span></p>
 <ol>
-<li>Pateikiama atlikta individuali darbo dalis ir ataskaitos elektroninë versija;</li>
-<li>Operatyviai atliekamos dëstytojo nurodytos uşduotys:<br>- atlikti nurodytus veiksmus <strong>NetBeans </strong>aplinkoje (klasës kûrimas, vardø keitimas, importo fiksavimas, klasës ar metodo paieğka ir pan.);<br>- sukurti ar modifikuoti nurodytus savybiø tyrimo metodus;</li>
-<li>Atsakoma á klausimus apie baziniø klasiø struktûrà ir metodus.</li>
+<li>Pateikiama atlikta individuali darbo dalis ir ataskaitos elektroninÄ— versija;</li>
+<li>Operatyviai atliekamos dÄ—stytojo nurodytos uÅ¾duotys:<br>- atlikti nurodytus veiksmus <strong>NetBeans </strong>aplinkoje (klasÄ—s kÅ«rimas, vardÅ³ keitimas, importo fiksavimas, klasÄ—s ar metodo paieÅ¡ka ir pan.);<br>- sukurti ar modifikuoti nurodytus savybiÅ³ tyrimo metodus;</li>
+<li>Atsakoma Ä¯ klausimus apie baziniÅ³ klasiÅ³ struktÅ«rÄ… ir metodus.</li>
 </ol>
 <p><span style="text-decoration: underline;"><strong>Darbo eiga</strong></span></p>
-<p><em>Duota:</em> projektas <strong>Lab1_BazinesStrukturos</strong>, kuriame yra pateiktos baziniø struktûrø demonstracinës klasës su valdymo perjungimo metodais.</p>
-<p><em>Tyrimo ir analizës dalis:</em></p>
-<p>Susipaşinti ir iğnagrinëti <strong>NetBeans </strong>aplinkà. Toliau pereiti prie demonstraciniø klasiø nagrinëjimo, bandymø ir tyrimo. Perşiûrëkite ir iğsiaiğkinkite pateiktas klases, pakeiskite programiná kodà, stebëkite gautus rezultatus.</p>
+<p><em>Duota:</em> projektas <strong>Lab1_BazinesStrukturos</strong>, kuriame yra pateiktos baziniÅ³ struktÅ«rÅ³ demonstracinÄ—s klasÄ—s su valdymo perjungimo metodais.</p>
+<p><em>Tyrimo ir analizÄ—s dalis:</em></p>
+<p>SusipaÅ¾inti ir iÅ¡nagrinÄ—ti <strong>NetBeans </strong>aplinkÄ…. Toliau pereiti prie demonstraciniÅ³ klasiÅ³ nagrinÄ—jimo, bandymÅ³ ir tyrimo. PerÅ¾iÅ«rÄ—kite ir iÅ¡siaiÅ¡kinkite pateiktas klases, pakeiskite programinÄ¯ kodÄ…, stebÄ—kite gautus rezultatus.</p>
 <p><em>Programavimo&nbsp; dalis:</em></p>
 <ol>
-<li>Sukurti metodus matematiniø tapatybiø patikrinimui, panaudojant klasës <strong>Math </strong>funkcijas;</li>
+<li>Sukurti metodus matematiniÅ³ tapatybiÅ³ patikrinimui, panaudojant klasÄ—s <strong>Math </strong>funkcijas;</li>
 <li>Sukurti metodus pasirinktai teksto analizei;</li>
-<li>Sudaryti vieno iğ pirmo kurso laboratoriniø darbø programà Java kalba (be&nbsp; duomenø ávedimo metodø) naujo NetBeans projekto formoje.</li>
+<li>Sudaryti vieno iÅ¡ pirmo kurso laboratoriniÅ³ darbÅ³ programÄ… Java kalba (be&nbsp; duomenÅ³ Ä¯vedimo metodÅ³) naujo NetBeans projekto formoje.</li>
 </ol>
-<p>Klasë <strong>BandymuLaboratorija </strong>- tai pradinë tyrimø klasë, iğ kurios pasirinktinai yra nukreipiama á Javos elementø savybes demonstruojanèius metodus. Jie naudingi konkreèiø savybiø paşinimui sustiprinti. Kadangi visi metodai su <strong>System.out.println</strong> pateikia nemaşai informacijos, todël <em>rekomenduojama komentarø pagalba iğskirti tik vienà tiriamà klasæ ir metodus, o kitus padaryti neaktyviais ir koncentruotis á vienà problemà</em>. Daugelis metodø yra "vienkartinio" naudojimo ir prasmingø algoritmø ieğkoti nereikia. Jei kokie nors aspektai yra neaiğkûs, tai tada yra daromi metodo pakeitimai ir tyrinëjama toliau, stebint gautus rezultatus.</p>
-<p>Pateiktos klasës gali bûti naudojamos kaip ğabloniniø sprendimø saugyklos. Toliau kylant naujoms problemoms, papildomai sukuriamos naujos klasës ar metodai, jie iğbandomi ir tada perkeliami á kuriamà programà.</p>
-<p>DAUG KLAUSIMØ APIE JAVÀ GALIMA IĞSIAIĞKINTI, ATLIEKANT SAVARANKIĞKUS BANDYMUS, TYRIMUS IR ANALIZÆ.</p>
-<p><span style="text-decoration: underline;"><strong>Vertinimas:</strong></span> Minimalus iğtirtø ir individualiai adaptuotø metodø rinkinys teigiamam paşymiui yra:</p>
+<p>KlasÄ— <strong>BandymuLaboratorija </strong>- tai pradinÄ— tyrimÅ³ klasÄ—, iÅ¡ kurios pasirinktinai yra nukreipiama Ä¯ Javos elementÅ³ savybes demonstruojanÄius metodus. Jie naudingi konkreÄiÅ³ savybiÅ³ paÅ¾inimui sustiprinti. Kadangi visi metodai su <strong>System.out.println</strong> pateikia nemaÅ¾ai informacijos, todÄ—l <em>rekomenduojama komentarÅ³ pagalba iÅ¡skirti tik vienÄ… tiriamÄ… klasÄ™ ir metodus, o kitus padaryti neaktyviais ir koncentruotis Ä¯ vienÄ… problemÄ…</em>. Daugelis metodÅ³ yra "vienkartinio" naudojimo ir prasmingÅ³ algoritmÅ³ ieÅ¡koti nereikia. Jei kokie nors aspektai yra neaiÅ¡kÅ«s, tai tada yra daromi metodo pakeitimai ir tyrinÄ—jama toliau, stebint gautus rezultatus.</p>
+<p>Pateiktos klasÄ—s gali bÅ«ti naudojamos kaip Å¡abloniniÅ³ sprendimÅ³ saugyklos. Toliau kylant naujoms problemoms, papildomai sukuriamos naujos klasÄ—s ar metodai, jie iÅ¡bandomi ir tada perkeliami Ä¯ kuriamÄ… programÄ….</p>
+<p>DAUG KLAUSIMÅ² APIE JAVÄ„ GALIMA IÅ SIAIÅ KINTI, ATLIEKANT SAVARANKIÅ KUS BANDYMUS, TYRIMUS IR ANALIZÄ˜.</p>
+<p><span style="text-decoration: underline;"><strong>Vertinimas:</strong></span> Minimalus iÅ¡tirtÅ³ ir individualiai adaptuotÅ³ metodÅ³ rinkinys teigiamam paÅ¾ymiui yra:</p>
 <ul>
-<li>klasë Demo0 - visi metodai; </li>
-<li>klasë Demo1 - met1, met2, met5, met6, met7; </li>
-<li>klasë Demo2 - met1, met2, met5, met6, met7; </li>
-<li>klasë Demo3 - met1, met2, met5; </li>
-<li>klasë Demo4 - met1, met2, met3.</li>
+<li>klasÄ— Demo0 - visi metodai; </li>
+<li>klasÄ— Demo1 - met1, met2, met5, met6, met7; </li>
+<li>klasÄ— Demo2 - met1, met2, met5, met6, met7; </li>
+<li>klasÄ— Demo3 - met1, met2, met5; </li>
+<li>klasÄ— Demo4 - met1, met2, met3.</li>
 </ul>
-<p>Taip pat reikia atlikti pasirinktà pirmo kurso uşdaviná pagal pateiktà pavyzdá.</p>
-<p>Kitos klasës ir metodai - paşymio gerinimui. Kuo ádomesni ir originalesni studentø sukurti demo pavyzdşiai,<br>tuo geresnis laboratorinio darbo ávertinimas :-)<br> <br></p>
-
-<p></p>
-	</div>
-	
-	<div id="rd_file">
-	
-		<div class="rd_thumb"><img alt="zip.png" src="http://proin.ktu.lt/ds/images/rokdownload_thumbs/zip.png"></div>		
-		<div class="rd_details">
-		
-			<dl class="rd_props">
-												<div class="rd_prop even">
-					<dt class="rd_modified_date">Atnaujinta:</dt>
-					<dd class="rd_modified_date">05.09.11</dd>
-				</div>
-												<div class="rd_prop odd">
-					<dt class="rd_filesize">Failo dydis:</dt>
-					<dd class="rd_filesize">76 KB</dd>
-				</div>
-												<div class="rd_prop even">
-					<dt class="rd_dl_count">Atsisiuntimai:</dt>
-					<dd class="rd_dl_count">1113</dd>
-				</div>
-								
-			</dl>
-			
-			<div class="rd_status">
-															</div>
-			<div class="rd_buttons">
-				<a class="rd_button" href="/ds/index.php/laboratoriniai-darbai/17-bazins-duomen-struktros/download"><span>Atsisiøsti</span></a>			</div>
-		</div>
-	</div>
-
+<p>Taip pat reikia atlikti pasirinktÄ… pirmo kurso uÅ¾davinÄ¯ pagal pateiktÄ… pavyzdÄ¯.</p>
+<p>Kitos klasÄ—s ir metodai - paÅ¾ymio gerinimui. Kuo Ä¯domesni ir originalesni studentÅ³ sukurti demo pavyzdÅ¾iai,<br>tuo geresnis laboratorinio darbo Ä¯vertinimas :-)<br> <br></p>
